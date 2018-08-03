@@ -1,6 +1,8 @@
 QuranExam questions projects.
-1- امكانية إضافة امتحان جديد.
-2- الامتحان مكون من عدة أسئلة.
-3- السؤال من سورة كذا آية كذا إلى سورة كذا آية كذا،
-4- مش لازم يكون السؤال بدايته ونهايته في نفس السورة.
-5- امكانية طباعة الامتحان وحفظ الامتحان، وتعديله فيما بعد وإعادة طباعته
+
+1- Ability to add exams.
+2- Exam contains multi question.
+3- Exam should be saved with it's name and code.
+4- Question format (From sura, From aya, To sura, To aya).
+5- Question can start in sura and end with another sura.
+6- Abilty to save, edit, print the exam.
