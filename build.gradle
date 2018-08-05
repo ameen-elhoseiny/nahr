@@ -6,6 +6,9 @@ buildscript {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.3.RELEASE")
     }
 }
+plugins {
+    id 'net.ltgt.apt' version '0.10'
+}
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -48,4 +51,8 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile("junit:junit")
+
+
+    compileOnly 'org.projectlombok:lombok:1.18.2'
+    apt "org.projectlombok:lombok:1.18.2"
 }
