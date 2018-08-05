@@ -1,12 +1,12 @@
 *.class
 *iml
 .iml
-.idea
+**.idea
 .gitignore~
-.classpath
-.project
+**.classpath
+**.project
 .settings/
-
+**.gradle
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 target
