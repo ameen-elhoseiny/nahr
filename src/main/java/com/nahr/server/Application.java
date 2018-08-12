@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Created by ameen on 05/08/2018.
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.nahr.server"})
 public class Application {
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);
