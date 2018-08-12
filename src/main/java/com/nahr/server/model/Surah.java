@@ -3,6 +3,7 @@ package com.nahr.server.model;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.util.List;
 
@@ -13,7 +14,9 @@ import java.util.List;
 @Entity
 public class Surah {
 
+	@Id
+	private Integer id;
 
-  @OneToMany
-  private List<Aya> ayat;
+	@OneToMany
+	private List<Aya> ayat;
 }
